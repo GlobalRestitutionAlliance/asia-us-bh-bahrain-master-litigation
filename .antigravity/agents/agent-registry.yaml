@@ -1,12 +1,511 @@
 agents:
-- id: agent-icj-judgment-and-article-94-marshal
-  name: ICJ Judgment & Article 94 Marshal
-  role: International Court of Justice (ICJ) 1986 Judgment on the Merits Enforcement, UN Charter Article 94 Non-Compliance Sanctions & Restrictive Immunity Forfeiture Marshal
-  status: ACTIVE
-  manifest_file: .antigravity/agents/agent-icj-judgment-and-article-94-marshal.yaml
-- id: agent-bahrain-canal-and-intervention-historian
-  name: Bahrain Canal & Intervention Historian
-  role: Historical Interventions Auditor, Bryan-Chamorro Treaty (1914) & CACJ Nullity Precedents, 1912–1933 Marine Occupation Customs Receivership & 1850s Mercenary Filibuster Disgorgement
-  status: ACTIVE
-  manifest_file: .antigravity/agents/agent-bahrain-canal-and-intervention-historian.yaml
-total_agents: 2
+  - id: agent_bh_001
+    name: Bahrain Agent 001
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_002
+    name: Bahrain Agent 002
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_003
+    name: Bahrain Agent 003
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_004
+    name: Bahrain Agent 004
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_005
+    name: Bahrain Agent 005
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_006
+    name: Bahrain Agent 006
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_007
+    name: Bahrain Agent 007
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_008
+    name: Bahrain Agent 008
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_009
+    name: Bahrain Agent 009
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_010
+    name: Bahrain Agent 010
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_011
+    name: Bahrain Agent 011
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_012
+    name: Bahrain Agent 012
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_013
+    name: Bahrain Agent 013
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_014
+    name: Bahrain Agent 014
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_015
+    name: Bahrain Agent 015
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_016
+    name: Bahrain Agent 016
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_017
+    name: Bahrain Agent 017
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_018
+    name: Bahrain Agent 018
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_019
+    name: Bahrain Agent 019
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_020
+    name: Bahrain Agent 020
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_021
+    name: Bahrain Agent 021
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_022
+    name: Bahrain Agent 022
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_023
+    name: Bahrain Agent 023
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_024
+    name: Bahrain Agent 024
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_025
+    name: Bahrain Agent 025
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_026
+    name: Bahrain Agent 026
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_027
+    name: Bahrain Agent 027
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_028
+    name: Bahrain Agent 028
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_029
+    name: Bahrain Agent 029
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_030
+    name: Bahrain Agent 030
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_031
+    name: Bahrain Agent 031
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_032
+    name: Bahrain Agent 032
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_033
+    name: Bahrain Agent 033
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_034
+    name: Bahrain Agent 034
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_035
+    name: Bahrain Agent 035
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_036
+    name: Bahrain Agent 036
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_037
+    name: Bahrain Agent 037
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_038
+    name: Bahrain Agent 038
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_039
+    name: Bahrain Agent 039
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_040
+    name: Bahrain Agent 040
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_041
+    name: Bahrain Agent 041
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_042
+    name: Bahrain Agent 042
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_043
+    name: Bahrain Agent 043
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_044
+    name: Bahrain Agent 044
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_045
+    name: Bahrain Agent 045
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_046
+    name: Bahrain Agent 046
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_047
+    name: Bahrain Agent 047
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_048
+    name: Bahrain Agent 048
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_049
+    name: Bahrain Agent 049
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_050
+    name: Bahrain Agent 050
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_051
+    name: Bahrain Agent 051
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_052
+    name: Bahrain Agent 052
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_053
+    name: Bahrain Agent 053
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_054
+    name: Bahrain Agent 054
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_055
+    name: Bahrain Agent 055
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_056
+    name: Bahrain Agent 056
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_057
+    name: Bahrain Agent 057
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_058
+    name: Bahrain Agent 058
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_059
+    name: Bahrain Agent 059
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_060
+    name: Bahrain Agent 060
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_061
+    name: Bahrain Agent 061
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_062
+    name: Bahrain Agent 062
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_063
+    name: Bahrain Agent 063
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_064
+    name: Bahrain Agent 064
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_065
+    name: Bahrain Agent 065
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_066
+    name: Bahrain Agent 066
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_067
+    name: Bahrain Agent 067
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_068
+    name: Bahrain Agent 068
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_069
+    name: Bahrain Agent 069
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_070
+    name: Bahrain Agent 070
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_071
+    name: Bahrain Agent 071
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_072
+    name: Bahrain Agent 072
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_073
+    name: Bahrain Agent 073
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_074
+    name: Bahrain Agent 074
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_075
+    name: Bahrain Agent 075
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_076
+    name: Bahrain Agent 076
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_077
+    name: Bahrain Agent 077
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_078
+    name: Bahrain Agent 078
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_079
+    name: Bahrain Agent 079
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_080
+    name: Bahrain Agent 080
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_081
+    name: Bahrain Agent 081
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_082
+    name: Bahrain Agent 082
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_083
+    name: Bahrain Agent 083
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_084
+    name: Bahrain Agent 084
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_085
+    name: Bahrain Agent 085
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_086
+    name: Bahrain Agent 086
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_087
+    name: Bahrain Agent 087
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_088
+    name: Bahrain Agent 088
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_089
+    name: Bahrain Agent 089
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_090
+    name: Bahrain Agent 090
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_091
+    name: Bahrain Agent 091
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_092
+    name: Bahrain Agent 092
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_093
+    name: Bahrain Agent 093
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_094
+    name: Bahrain Agent 094
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_095
+    name: Bahrain Agent 095
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_096
+    name: Bahrain Agent 096
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_097
+    name: Bahrain Agent 097
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_098
+    name: Bahrain Agent 098
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_099
+    name: Bahrain Agent 099
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_100
+    name: Bahrain Agent 100
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_101
+    name: Bahrain Agent 101
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_102
+    name: Bahrain Agent 102
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_103
+    name: Bahrain Agent 103
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_104
+    name: Bahrain Agent 104
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_105
+    name: Bahrain Agent 105
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_106
+    name: Bahrain Agent 106
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_107
+    name: Bahrain Agent 107
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_108
+    name: Bahrain Agent 108
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_109
+    name: Bahrain Agent 109
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_110
+    name: Bahrain Agent 110
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_111
+    name: Bahrain Agent 111
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_112
+    name: Bahrain Agent 112
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_113
+    name: Bahrain Agent 113
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_114
+    name: Bahrain Agent 114
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_115
+    name: Bahrain Agent 115
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_116
+    name: Bahrain Agent 116
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_117
+    name: Bahrain Agent 117
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_118
+    name: Bahrain Agent 118
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_119
+    name: Bahrain Agent 119
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_120
+    name: Bahrain Agent 120
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_121
+    name: Bahrain Agent 121
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_122
+    name: Bahrain Agent 122
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_123
+    name: Bahrain Agent 123
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_124
+    name: Bahrain Agent 124
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_125
+    name: Bahrain Agent 125
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_126
+    name: Bahrain Agent 126
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_127
+    name: Bahrain Agent 127
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_128
+    name: Bahrain Agent 128
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_129
+    name: Bahrain Agent 129
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_130
+    name: Bahrain Agent 130
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_131
+    name: Bahrain Agent 131
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_132
+    name: Bahrain Agent 132
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_133
+    name: Bahrain Agent 133
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_134
+    name: Bahrain Agent 134
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_135
+    name: Bahrain Agent 135
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_136
+    name: Bahrain Agent 136
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_137
+    name: Bahrain Agent 137
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_138
+    name: Bahrain Agent 138
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_139
+    name: Bahrain Agent 139
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_140
+    name: Bahrain Agent 140
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_141
+    name: Bahrain Agent 141
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_142
+    name: Bahrain Agent 142
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_143
+    name: Bahrain Agent 143
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_144
+    name: Bahrain Agent 144
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_145
+    name: Bahrain Agent 145
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_146
+    name: Bahrain Agent 146
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_147
+    name: Bahrain Agent 147
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_148
+    name: Bahrain Agent 148
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_149
+    name: Bahrain Agent 149
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_150
+    name: Bahrain Agent 150
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_151
+    name: Bahrain Agent 151
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_152
+    name: Bahrain Agent 152
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_153
+    name: Bahrain Agent 153
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_154
+    name: Bahrain Agent 154
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_155
+    name: Bahrain Agent 155
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_156
+    name: Bahrain Agent 156
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_157
+    name: Bahrain Agent 157
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_158
+    name: Bahrain Agent 158
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_159
+    name: Bahrain Agent 159
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_160
+    name: Bahrain Agent 160
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_161
+    name: Bahrain Agent 161
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_162
+    name: Bahrain Agent 162
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_163
+    name: Bahrain Agent 163
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_164
+    name: Bahrain Agent 164
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_165
+    name: Bahrain Agent 165
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_166
+    name: Bahrain Agent 166
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_167
+    name: Bahrain Agent 167
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_168
+    name: Bahrain Agent 168
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_169
+    name: Bahrain Agent 169
+    status: ACTIVE_SCAFFOLD
+  - id: agent_bh_170
+    name: Bahrain Agent 170
+    status: ACTIVE_SCAFFOLD
