@@ -1,0 +1,17 @@
+{
+  "url": "https://www.amnesty.org/en/location/middle-east-and-north-africa/middle-east/bahrain/",
+  "final_url": "https://www.amnesty.org/en/location/middle-east-and-north-africa/middle-east/bahrain/",
+  "title": "Amnesty - Bahrain",
+  "fetched_at": "2026-11-23T15:21:25.362218Z",
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "bytes": 96685,
+  "sha256": "7f7a90f5098771294c31b447d6e56bbd0c983e0118225dab8ca417c7b432e4ec",
+  "provenance": "direct-http-fetch",
+  "custodian": "GRA-evidence-harvester",
+  "capture_access": "PUBLIC_CAPTURE_UNAUTHENTICATED",
+  "legal_review_status": "PENDING_LEGAL_REVIEW",
+  "note": "Direct harvest capture; pending legal review/authentication.",
+  "substantive": true,
+  "quality_flag": "SUBSTANTIVE_CAPTURE_PENDING_REVIEW"
+}
